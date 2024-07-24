@@ -50,6 +50,50 @@
 		</main>
 	</div>
 
+	<center><h1>Modern Navbar</h1></center>
+	<br><br>
+
+	<nav class="navbar1">
+		<ul class="linklis">
+			<li><a href="">Home</a></li>
+			<li><a href="">Discover</a></li>
+			<li><a href="">Videos</a></li>
+			<li><a href="">Challenges</a></li>
+			<li><a href="tailwind.html" target="_blank">Tailwind</a></li>
+		</ul>
+	</nav>
+
+	<style>
+		.navbar1{
+			background-color: #fff;
+			border-radius: 20px;
+			font-family: sans-serif;
+		}
+		.linklis{
+			display: flex;
+			list-style: none;
+			justify-content: space-around;
+		}
+		.linklis li{
+			padding-top: 30px;
+			padding-bottom: 30px;
+/*			border: 1px black solid;*/
+		}
+		.linklis li:hover{
+			border-bottom: 4px #000 solid;
+		}
+		.linklis li a{
+			color: #777;
+			text-decoration: none;
+		}
+		.linklis li a:hover{
+			color: #000;
+			font-weight: 600;
+			
+		}
+	</style>
+
+
 	<center><h1>NAVBAR SAMPLE</h1></center>
 	<br><br>
 
@@ -58,7 +102,7 @@
 		<ul class="linklist">
 			<li><a href="home.html"> Home </a></li>
 			<li><a href="about.html"> About </a></li>
-			<li><a href="blog.html"> Blog </a></li>
+			<li><a href="mukhtar.html"> Mukhtar </a></li>
 			<li><a href="app.html"> App </a></li>
 		</ul>
 	</nav>
@@ -98,6 +142,7 @@
 		.sidebyside{
 			display: flex;
 			flex: row;
+			flex-wrap: wrap;
 			justify-content: space-evenly;
 		}
 		.box{
@@ -106,6 +151,7 @@
 			width: 300px;
 			padding-top: 30px;
 			padding-bottom: 30px;
+			margin-top: 5px;
 			font-family: lato, sans-serif;
 		}
 		.rating{
